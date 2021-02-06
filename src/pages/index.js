@@ -1,8 +1,13 @@
-import React from "react"
-import { Container } from "../components"
+import React from "react";
+import { Container } from "../components";
+import { FeatureImage } from "../components";
 
 const IndexPage = () => {
-  return <Container></Container>
-}
+  return (
+    <Container>
+      <FeatureImage />
+    </Container>
+  );
+};
 
-export default IndexPage
+export default IndexPage;
