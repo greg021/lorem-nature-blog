@@ -1,5 +1,6 @@
-export * from "./ContainerElements";
+export * from "./ContainerElement";
 export * from "./NavElements";
+export * from "./PostElement";
 export * from "./FooterElements";
 export * from "./ImageElement";
 export * from "./ContentElement";
