@@ -1,4 +1,11 @@
 module.exports = {
+  siteMetadata: {
+    title: "Lorem nature's blog",
+    description: "My first blog with gatsby. All about nature.",
+    url: "https://greg021.github.io/",
+    image: "/mist.jpg",
+    author: "Greg Jones",
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -45,4 +52,4 @@ module.exports = {
       },
     },
   ],
-}
+};

@@ -1,5 +1,6 @@
 export * from "./Container";
 export * from "./Nav";
+export * from "./Seo";
 export * from "./Post";
 export * from "./Pagination";
 export * from "./Button";
