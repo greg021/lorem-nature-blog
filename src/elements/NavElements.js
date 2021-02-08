@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const NavWrapper = styled.nav`
   grid-column: 2 / span 12;
@@ -7,10 +7,10 @@ export const NavWrapper = styled.nav`
   align-items: center;
 
   img {
-    height: 40px;
+    height: 50px;
   }
 
-  @media ${props => props.theme.breakpoints.tablet} {
+  @media ${(props) => props.theme.breakpoints.tablet} {
     grid-column: 2 / span 6;
   }
-`
+`;

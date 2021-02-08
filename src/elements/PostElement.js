@@ -26,6 +26,7 @@ export const PostWrapper = styled.main`
 
   p {
     margin: 1rem 0 0 0;
+    line-height: 1.5rem;
     color: ${(props) => props.theme.colors.dark2};
   }
 
