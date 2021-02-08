@@ -9,6 +9,28 @@ export const PostWrapper = styled.main`
   box-shadow: ${(props) => props.theme.shadows.shadow1};
   z-index: 10;
 
+  //
+  // here goes the stylesheet of markdown
+
+  h2,
+  h3,
+  h4,
+  hr {
+    margin: 1.25rem 0 0 0;
+    color: ${(props) => props.theme.colors.dark1};
+  }
+
+  hr {
+    color: ${(props) => props.theme.colors.dark3};
+  }
+
+  p {
+    margin: 1rem 0 0 0;
+    color: ${(props) => props.theme.colors.dark2};
+  }
+
+  //
+
   @media ${(props) => props.theme.breakpoints.tablet} {
     grid-column: 4 / span 6;
   }
