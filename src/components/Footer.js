@@ -17,10 +17,10 @@ export const Footer = () => {
         linkedIn: file(relativePath: { eq: "linkedIn.svg" }) {
           publicURL
         }
-        instagram: file(relativePath: { eq: "instagram.svg" }) {
+        twitter: file(relativePath: { eq: "twitter.svg" }) {
           publicURL
         }
-        twitter: file(relativePath: { eq: "twitter.svg" }) {
+        github: file(relativePath: { eq: "github.svg" }) {
           publicURL
         }
       }
@@ -39,25 +39,25 @@ export const Footer = () => {
             <img src={data.facebook.publicURL} alt="Facebook logo" />
           </a>
           <a
-            href="https://facebook.com"
+            href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={data.linkedIn.publicURL} alt="Linked in logo" />
+            <img src={data.linkedIn.publicURL} alt="Linkedin logo" />
           </a>
           <a
-            href="https://facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={data.instagram.publicURL} alt="Instagram logo" />
-          </a>
-          <a
-            href="https://facebook.com"
+            href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={data.twitter.publicURL} alt="Twitter logo" />
+          </a>
+          <a
+            href="https://greg021.github.io"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={data.github.publicURL} alt="Github logo" />
           </a>
         </FooterSocialIcons>
         <P size="xSmall" color="dark3">

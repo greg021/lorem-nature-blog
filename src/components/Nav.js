@@ -1,6 +1,6 @@
-import React from "react"
-import { useStaticQuery, Link, graphql } from "gatsby"
-import { NavWrapper } from "../elements"
+import React from "react";
+import { useStaticQuery, Link, graphql } from "gatsby";
+import { NavWrapper } from "../elements";
 
 export const Nav = () => {
   const data = useStaticQuery(
@@ -11,7 +11,7 @@ export const Nav = () => {
         }
       }
     `
-  )
+  );
 
   return (
     <NavWrapper>
@@ -19,5 +19,5 @@ export const Nav = () => {
         <img src={data.logo.publicURL} alt="L0G0" />
       </Link>
     </NavWrapper>
-  )
-}
+  );
+};

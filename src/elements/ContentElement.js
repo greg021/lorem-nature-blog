@@ -10,11 +10,11 @@ export const ContentWrapper = styled.main`
   z-index: 10;
 
   @media ${(props) => props.theme.breakpoints.tablet} {
-    grid-column: 4 / span 6;
+    grid-column: 2 / span 6;
   }
 
   @media ${(props) => props.theme.breakpoints.mobile} {
     padding: ${(props) =>
-      `${props.theme.spacings.medium} ${props.theme.spacings.large}`};
+      `${props.theme.spacings.small} ${props.theme.spacings.medium}`};
   }
 `;

@@ -1,6 +1,6 @@
-import React from "react"
-import { ContainerWrapper } from "../elements"
-import { Nav, Footer } from "../components"
+import React from "react";
+import { ContainerWrapper } from "../elements";
+import { Nav, Footer } from "../components";
 
 export const Container = ({ children }) => {
   return (
@@ -9,5 +9,5 @@ export const Container = ({ children }) => {
       {children}
       <Footer />
     </ContainerWrapper>
-  )
-}
+  );
+};

@@ -28,11 +28,10 @@ export const PostWrapper = styled.main`
   }
 
   @media ${(props) => props.theme.breakpoints.tablet} {
-    grid-column: 4 / span 6;
+    grid-column: 2 / span 6;
   }
 
   @media ${(props) => props.theme.breakpoints.mobile} {
-    padding: ${(props) =>
-      `${props.theme.spacings.medium} ${props.theme.spacings.large}`};
+    padding: ${(props) => props.theme.spacings.small};
   }
 `;
