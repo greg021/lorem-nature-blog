@@ -24,7 +24,7 @@ const allPosts = ({ pageContext, data }) => {
       <FeatureImage />
       <Content>
         <H1 textAlign="center" margin="0 0 1rem 0">
-          Welcome to The Blog Of Vilukihnejufetrewd
+          Welcome to The Blog Of Nature...
         </H1>
         <P color="dark2" text-align="center">
           Lorem error sit voluptatem accusantium doloremque laudantium, totam
