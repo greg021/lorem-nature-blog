@@ -27,9 +27,9 @@ const allPosts = ({ pageContext, data }) => {
           Welcome to The Blog Of Nature...
         </H1>
         <P color="dark2" text-align="center">
-          Lorem error sit voluptatem accusantium doloremque laudantium, totam
-          rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
+          The world is an amazing place full of stories, beauty and natural
+          wonder.This is a blog for sharing fascination about nature. Also
+          educate about some endangered parts of nature.
         </P>
         {posts.map((post) => {
           return (
